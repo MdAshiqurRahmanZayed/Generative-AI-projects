@@ -1,0 +1,8 @@
+.
+..
+chroma_db
+gemini_command_runner.ipynb
+generate_test_with_chroma_db.ipynb
+.ipynb_checkpoints
+main.ipynb
+output.txt
