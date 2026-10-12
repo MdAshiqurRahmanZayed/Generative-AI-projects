@@ -1,0 +1,22 @@
+[project]
+name = "generative-ai-projects"
+version = "0.1.0"
+description = "Collection of generative AI experiments and small apps (Gemini, DeepSeek/Ollama, LangChain, Streamlit)."
+authors = [
+    { name = "ashiqur-zayed-strativ", email = "ashiqur.zayed@strativ.se" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.38",
+    "langchain>=0.3,<0.4",
+    "langchain-core>=0.3,<0.4",
+    "langchain-community>=0.3,<0.4",
+    "langchain-google-genai>=2.0",
+    "langchain-ollama>=0.2",
+    "chromadb>=0.5",
+    "python-dotenv>=1.0",
+    "requests>=2.32",
+    "httpx>=0.27",
+    "ipython>=8.0",
+    "jupyter>=1.0",
+]
